@@ -88,6 +88,16 @@
   margin-bottom: 10px;
   border-radius: 5px;
 }
+.navigation{
+  font-weight: 600;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+h3{
+  font-weight: 600;
+  margin-bottom: 50px;
+}
 .coverimg{
   width: 100%;
   height: 160px;
@@ -140,9 +150,10 @@
   border-radius: 5px;
 }
 .visit{
+  background-color: white;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #034cac;
+  border: 1px solid #3587da;
 }
 .ellipse{
   padding: 10px;
@@ -151,6 +162,9 @@
   font-weight: bolder;
   border-radius: 5px;
   border: none;
+}
+.description{
+  padding: 20px;
 }
 
 .ad{
