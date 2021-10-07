@@ -1,4 +1,5 @@
 import React from "react";
+import './Pageaccount.css'
 import Avatar from "@material-ui/core/Avatar";
 
 function Pageaccount({avatar, title, occup, follower}){

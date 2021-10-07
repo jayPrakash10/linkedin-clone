@@ -1,0 +1,79 @@
+.coverimg{
+  width: 100%;
+  height: 160px;
+  border-radius: 5px 5px 0px 0px;
+  background-image: url('/src/component/images/figmacover.png');
+  background-position: top;
+}
+.profileimg{
+  background-image: url('/src/component/images/Figma-logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size:50%;
+  width: 130px;
+  height: 130px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin : -65px 30px;
+}
+.profilebody{
+  border-radius: 5px;
+  margin-top : 80px;
+  padding : 0 30px 10px;
+}
+.profilebody > *{
+  margin : 5px;
+}
+.profilebody > div:nth-child(3){
+  display: flex;
+  align-items: center;
+  color: rgb(155, 155, 155);
+}
+.profilebody > div:nth-child(4){
+  display: flex;
+  align-items: center;
+  color: #034cac;
+}
+.profilebody > div:nth-child(3) > p:not(:first-child){
+  margin-left: 10px;
+}
+.profilebody > div:nth-child(3) > p:not(:last-child){
+  margin-right: 10px;
+}
+.profilebody > div:nth-child(3) > p{
+  margin : 10px 0px;
+}
+
+.profilebody > div:nth-child(4):hover,.follow:hover,.ellipse:hover,.visit:hover{
+  cursor: pointer;
+}
+
+
+.follow{
+  display: inline-flex;
+  align-items: center;
+  background-color: #034cac;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.follow > i{
+  margin-right: 5px;
+}
+.visit{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #3587da;
+}
+.ellipse{
+  padding: 10px;
+  width: 38px;
+  color: #034cac;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: none;
+}
+

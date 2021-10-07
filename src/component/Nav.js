@@ -1,4 +1,5 @@
 import React from 'react'
+import './Nav.css'
 import HomeIcon from '@material-ui/icons/Home'
 import PeopleAltRoundedIcon from '@material-ui/icons/PeopleAltRounded';
 import BusinessCenterOutlinedIcon from '@material-ui/icons/BusinessCenterOutlined';

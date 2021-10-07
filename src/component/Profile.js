@@ -1,4 +1,5 @@
 import React from "react";
+import './Profile.css'
 import ArrowForwardRoundedIcon from '@material-ui/icons/ArrowForward';
 
 function Profile(){

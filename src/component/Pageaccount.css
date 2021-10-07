@@ -1,0 +1,37 @@
+.pageaccount{
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.pageaccount:first-child{
+  margin-top: 20px;
+}
+.pageaccount> div:first-child{
+  height: 50px;
+  width: 50px;
+}
+.pageaccount> div:last-child{
+  font-size: 25px;
+  color:#0a66c2;
+}
+.pageaccount > div:last-child:hover{
+  cursor: pointer;
+}
+
+.pageinfo{
+  padding-left: 20px;
+  display: flex;
+  width: 295px;
+  font-weight: normal;
+  flex-direction: column;
+}
+.pageinfo > div:last-child > *{
+  display: inline-block;
+}
+.pageinfo > div > p:not(:first-child){
+  margin-left: 5px;
+}
+.pageinfo > div > p{
+  margin: 0 5px 0 0;
+  color: lightgray;
+}

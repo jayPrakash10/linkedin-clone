@@ -1,0 +1,36 @@
+.container{
+  margin: 20px 100px;
+  display: flex;
+}
+
+.content{
+  flex : 0.7;
+  margin-right: 10px;
+}
+.ad{
+  margin-left: 10px;
+  flex: 0.35;
+}
+
+.profile,.navigation,.description,.pagead{
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.navigation{
+  font-weight: 600;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation > *{
+  padding: 20px 0;
+}
+.navigation > *:hover{
+  cursor: pointer;
+}
+.active{
+  color: green;
+  border-bottom: 2px solid green;
+}

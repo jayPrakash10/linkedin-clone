@@ -1,0 +1,55 @@
+.header{
+    background-color: #0a66c2;
+    display: flex;
+    padding: 5px 100px;
+    color: white;
+}
+.logo{
+    height: 25px;
+}
+.headerlogo{
+    padding : 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: white;
+}  
+.headerinput{
+    display: flex;
+    align-items: center;
+    background-color: #3587da;
+    border-radius: 5px;
+    width: 61%;
+    padding : 5px;
+}
+.headerinput > svg{
+    width: 30px;
+}
+.headerinput > input{
+    background-color:transparent;
+    color: white;
+    border : none;
+    flex: 1;
+}
+.headericons{
+    margin-left: 30px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.headericons > i{
+    font-size: 20px;
+}
+.headericons > button{
+    border : none;
+    width : 40%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;  
+    background-color: rgb(230, 230, 0);
+}
+.headericon{
+    margin-right: 30px;
+}
+.headericon:hover{
+    cursor: pointer;
+}

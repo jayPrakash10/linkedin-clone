@@ -1,0 +1,28 @@
+.pagead{
+  padding : 20px;
+  font-weight: bold;
+}
+
+.services{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+.services>*{
+  margin: 5px 30px;
+}
+.services>*:hover{
+  cursor: pointer;
+}
+
+.copyrights{
+  border-top: 1px solid rgb(200, 200, 200);
+  margin: 0 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.copyrights > img{
+  height: 20px;
+}
