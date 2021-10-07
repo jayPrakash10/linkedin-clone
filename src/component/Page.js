@@ -1,4 +1,6 @@
 import React from 'react'
+import Description from './Description'
+import Pagead from './Pagead'
 import Profile from './Profile'
 
 function Page(){
@@ -14,18 +16,11 @@ function Page(){
                     <div>Jobs</div>
                     <div>People</div>
                     <div>Videos</div>
+                    <i className='fa fa-invision'></i>
                 </div>
-                <div className='description'>
-                    <h3>
-                        About
-                    </h3>
-                    <p>Figma is the first professional-grade online tool created specifically for interface design. Born on the Web, Figma helps the entire product team create, test, and ship better designs, faster.</p>
-                </div>
-                
+                <Description/>
             </div>
-            <div className='ad'>
-                People
-            </div>
+            <Pagead />
         </div>
     )
 }

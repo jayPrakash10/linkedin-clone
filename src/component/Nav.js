@@ -4,6 +4,7 @@ import PeopleAltRoundedIcon from '@material-ui/icons/PeopleAltRounded';
 import BusinessCenterOutlinedIcon from '@material-ui/icons/BusinessCenterOutlined';
 import PersonRoundedIcon from '@material-ui/icons/PersonRounded';
 import Navcomp from './Navcomp';
+
 function Nav(){
     return(
         <>

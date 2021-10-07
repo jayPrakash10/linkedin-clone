@@ -4,7 +4,6 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import MessageIcon from '@material-ui/icons/Message';
 import Avatar from '@material-ui/core/Avatar';
 import AppsIcon from '@material-ui/icons/Apps';
-// import Button from '@material-ui/icons/Button';
 
 function Header(){
     return(
